@@ -1,0 +1,26 @@
+.Nav{
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem calc((100vw - 1000px) / 2);
+    z-index: 12;
+}
+
+.NavMenu {
+    display: flex;
+    align-items: center;
+    margin-right: -24px;
+    list-style-type: none;
+}
+
+
+.Navlink{
+    color: black;
+display: flex;
+align-items: center;
+text-decoration: none;
+padding: 0 1rem;
+height: 100%;
+cursor: pointer;
+}
